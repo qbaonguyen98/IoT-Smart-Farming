@@ -1,0 +1,95 @@
+/*
+body {
+    background-image: url("images/background.jpg");
+  }
+*/
+/********************************* Navigation Menu **********************************/
+#navigationmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+#l01 {
+    float: left;  
+}
+                                          
+#l01 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+#l01 a:hover {
+    background-color: #111111;
+}
+
+/********************************* Control Blocks **********************************/
+.div1 {
+    float: left;
+    width: 49%;
+    padding: 5px;
+    border: 6px solid lightgray;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.div2 {
+    float: right;
+    width: 49%;
+    padding: 5px;
+    border: 6px solid lightgray;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/********************************* Buttons **********************************/
+.buttonon {
+    display: inline-block;
+    padding: 9px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px #999;
+  }
+  
+.buttonon:hover {background-color: #3aa543}
+  
+.buttonon:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.buttonoff {
+    display: inline-block;
+    padding: 9px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(255, 74, 74);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px #999;
+  }
+  
+.buttonoff:hover {background-color: #f04444}
+  
+.buttonoff:active {
+    background-color: #e03b3b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

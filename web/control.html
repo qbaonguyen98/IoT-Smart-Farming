@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    -->
+    <title>IoT Project</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="js library/mqttws31.js" type="text/javascript"></script>
+    <script src="js library/jquery-3.4.1.min.js" type="text/javascript"></script>
+    
+</head>
+
+<body>
+    <!-------------------------------    Navigation Menu    ------------------------------>
+    <ul id = "navigationmenu">
+        <li id = "l01"><a href="index.html">HOME</a></li>
+        <li id = "l01"><a href="control.html">CONTROL</a></li>
+        <li id = "l01"><a href="#statistic">STATISTIC</a></li>
+        <li id = "l01"><a href="#about">ABOUT US</a></li>
+    </ul>
+    <br>
+    <!---------------------------------     Switches    ------------------------------onclick="light_handler()"---->
+    <script src="relays_icon.js" type="text/javascript"></script>
+    <script src="mqtt_functions.js" type="text/javascript"></script>
+    <script>
+        MQTTconnect();
+    </script>
+
+        <div class="div1">
+            <h2 style="text-align:center;">Light</h2>
+            <p style="text-align:center;">
+                <button class="buttonon" type="button" onclick="lighton()">Switch On</button>
+                <img id="light" width="100" height="180">
+                <button class="buttonoff" type="button" onclick="lightoff()">Switch Off</button>
+            </p>
+        </p>
+        </div>
+        
+        <div class="div2" >
+            <h2 style="text-align:center;">Pump</h2>
+            <p style="text-align:center;">
+                <button class="buttonon" type="button" onclick="pumpon()">Turn On</button>
+                <img id="pump" width="225" height="180">
+                <button class="buttonoff" type="button" onclick="pumpoff()">Turn Off</button>
+            </p>
+        </div>
+
+
+</body>
+</html>

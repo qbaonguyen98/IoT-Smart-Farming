@@ -3,7 +3,7 @@
 ############################################################
 
 #   Notes: - This project is designed to work in LAN, the MQTT broker and Web server is installed on Ubuntu 16.04
-#   	   - You have to purchase a Web hosting, setup DNS and modify MQTT Server address to use it in the Internet
+#   	   - You have to purchase a Web hosting, setup DNS and modify MQTT Server address to use it on the Internet
 
 #   Follow these steps to make it work
 
